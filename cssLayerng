@@ -1,0 +1,30 @@
+CSS boxes that Layer and Overlay:
+The first box has a class of "box1" and the second box has a class of "box2". The container div has a class of "container" and is set to position: relative. This is important because it allows the child elements (box1 and box2) to be positioned absolutely within the container.
+Both boxes are set to position: absolute, which takes them out of the normal flow of the HTML and allows them to overlap. The second box (box2) has a top and left property set to 25px, which positions it 25 pixels from the top and 25 pixels from the left of the container.
+You can also change the position property of the boxes to be "fixed" or "sticky" which will keep the boxes in a fixed position as the user scrolls. And also you can play with z-index property to control the stack order of the boxes.
+<div class="container">
+  <div class="box1">Box 1</div>
+  <div class="box2">Box 2</div>
+</div>
+
+Your css:
+
+.container {
+  position: relative;
+}
+
+.box1 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.box2 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  top: 25px;
+  left: 25px;
+}
