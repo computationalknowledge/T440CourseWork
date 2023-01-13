@@ -1,0 +1,25 @@
+<html>
+<head>  </head>
+
+<body>
+
+<style>
+	div {
+	  width: 100px;
+	  height: 100px;
+	  padding: 10px;
+	  border: 2px solid black;
+	  margin: 20px;
+	} 	
+</style>
+
+<div>
+	<ol>
+<li>dog</li>
+<li>cat</li>
+</ol>
+</div>	
+
+</body>
+
+</html>
