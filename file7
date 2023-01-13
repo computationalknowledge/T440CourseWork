@@ -1,0 +1,47 @@
+<html>
+<head>
+  <title>Peter's Page</title>
+  <link rel="stylesheet" type="text/css" href="style5.css"/>
+</head>
+
+<body>
+<p class="box">
+  This is the p tag contents
+</p>
+
+<p class="box2">
+  This is the second tag contents
+</p>
+
+</body>
+<html>
+
+
+
+
+
+.box {
+  width: 700px;
+  color: black;
+  size:300;
+  height: 200px;
+  padding: 10px;
+  border: 5px solid black;
+  margin: 30px;
+  background-color: blue;
+}
+
+p{
+  font-size:100;
+  color:white;
+}
+
+.box2 {
+  width: 600px;
+  color: goldenrod;
+  height: 600px;
+  padding: 30px;
+  border: 15px hotpink;
+  margin: 50px;
+  background-color: lightseagreen ;
+}
