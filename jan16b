@@ -1,0 +1,18 @@
+// while loop
+
+<html>
+<head><title>Peter's Page </title>  </head>
+<body>
+<p>Good Evening</p>
+
+<script>
+  var i=0;
+  function a(){ 
+    while (true){
+    document.write(i++);
+  }
+}
+ document.write(a());
+</script>
+</body>
+</html> 
