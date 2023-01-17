@@ -1,0 +1,16 @@
+<html>
+<head><title>Peter's Page </title>  </head>
+<body>
+<p>Good Evening</p>
+<img width="100" src="dogs.jpg"/>
+
+<script>
+  function a(){ for (var i = 0 ; i<9 ; i++){
+    document.write(i);
+    return i;
+  }
+}
+ document.write(a());
+</script>
+</body>
+</html> 
